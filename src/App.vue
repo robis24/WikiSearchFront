@@ -106,6 +106,7 @@ import WikisearchPagers from './components/Pagers.vue';
 import WikisearchResults from './components/results/Results.vue';
 import WikisearchResultsCalendar from './components/results/ResultsCalendar.vue';
 import WikisearchResultsTemplate from './components/results/ResultsTemplate.vue';
+import WikisearchResultsExtension from './components/results/ResultsExtension.vue';
 import WikisearchResultsCalendarYear from './components/results/ResultsCalendarYear.vue';
 
 import WikisearchCalendarTools from './components/CalendarTools.vue';
@@ -175,6 +176,7 @@ export default {
           ? WikisearchResultsCalendarYear
           : WikisearchResultsCalendar,
         template: WikisearchResultsTemplate,
+        extension: WikisearchResultsExtension,
         default: WikisearchResults,
       };
 
